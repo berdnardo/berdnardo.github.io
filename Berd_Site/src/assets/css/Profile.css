@@ -1,0 +1,25 @@
+.Principal {
+  margin: 0px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+}
+
+.Header {
+  grid-area: header;
+  
+}
+
+.Content {
+  grid-area: content;
+  
+}
+
+.Footer {
+  grid-area: footer;
+  
+}
